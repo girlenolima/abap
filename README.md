@@ -6,6 +6,19 @@
  - SE10 - consultar resquestes
 
 # Variaveis
+
+```
+DATA ld_raio(12) TYPE p DECIMALS 2;
+```
+
+- DATA: Esta palavra-chave é usada para declarar variáveis em ABAP.
+- ld_raio é o nome da variável.
+- (12) especifica a longura total da variável, ou seja, o número total de posições (dígitos) que a variável pode armazenar, incluindo os dígitos à esquerda e à direita do ponto decimal.
+- TYPE é usado para especificar o tipo de dado da variável.
+- p indica que a variável é do tipo packed number (número compactado ou número decimal). Esse tipo é usado para representar números decimais com precisão fixa.
+-  DECIMALS 2 especifica o número de casas decimais que a variável terá. No caso, 2 casas decimais.
+
+### Tipos de variaveis
 - C (Character): Utilizado para armazenar cadeias de caracteres de comprimento fixo.
 - N (Numeric Text): Usado para armazenar números em forma de texto.
 - D (Date): Armazena datas no formato AAAAMMDD.
@@ -18,6 +31,7 @@
 - XString: Usado para armazenar dados binários de comprimento variável.
   
 # Constantes
+
 
 
 # Tipos de Dados Estruturados
