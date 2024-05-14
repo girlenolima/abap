@@ -18,3 +18,35 @@
 - XString: Usado para armazenar dados binários de comprimento variável.
   
 # Constantes
+
+
+# Tipos de Dados Estruturados
+Tipos de dados estruturados são compostos de vários campos, cada um dos quais pode ser de um tipo diferente:
+
+- Estruturas: Coleções de campos que podem ser de diferentes tipos de dados.
+- Tabelas Internas: Semelhantes a arrays ou listas em outras linguagens, são usadas para armazenar conjuntos de registros.
+  
+# Tipos de Dados de Referência
+Os tipos de dados de referência são usados para apontar para outros objetos e dados:
+
+- Ref to Data: Aponta para qualquer tipo de dados dinâmico.
+- Ref to Object: Aponta para objetos instanciados.
+- 
+# Tipos de Dados Definidos pelo Usuário
+Os desenvolvedores podem definir seus próprios tipos de dados com base nos tipos básicos, estruturas e tabelas internas:
+
+- Tipos definidos pelo usuário (Types): Permitem definir tipos complexos personalizados.
+- Constantes (Constants): Valores imutáveis definidos pelo usuário.
+- Domínios: Definem o intervalo de valores válidos para um campo de dados.
+- Elementos de Dados: Definem a semântica de um campo de dados e são baseados em domínios.
+  
+# Variáveis de Campo de Símbolos
+Campos de símbolos são uma forma especial de variáveis que permitem acesso dinâmico a campos e estruturas:
+
+- Field-Symbols: Permitem a referência indireta a campos de dados.
+  
+# Parâmetros e Seleções
+Utilizados em programas ABAP para entrada de dados:
+
+- Parâmetros: Usados para entrada de dados simples.
+- Seleções: Utilizadas para definir intervalos ou conjuntos de valores para a seleção de dados.
